@@ -1,0 +1,14 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: eks-loki-cluster
+  region: eu-central-1
+
+nodeGroups:
+  - name: ng-1
+    instanceType: m5.xlarge
+    desiredCapacity: 2
+    volumeSize: 100
+    ssh:
+      publicKeyPath: <path-to-public-key>
