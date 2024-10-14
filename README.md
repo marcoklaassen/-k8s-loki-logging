@@ -37,7 +37,8 @@ Now you are ready to create a new Connection in the Grafana UI:
 
 ![add new connection](image/add_new_connection.png)
 
-Then 
+When the datasource is created you can
+ 
 * switch to Explore
 * set label filters (e.g. `namespace`)
 * click `Run query`
