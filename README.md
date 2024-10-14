@@ -1,6 +1,6 @@
 # Loki Deployment on different K8s clusters
 
-## Deploy Loki on EKS
+## Create an EKS cluster with EBS storage
 
 This is documented in [EKS/README.md](EKS/README.md)
 
